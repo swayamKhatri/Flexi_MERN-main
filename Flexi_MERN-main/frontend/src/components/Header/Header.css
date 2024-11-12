@@ -1,0 +1,84 @@
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #E2DBBE;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #230007;
+}
+
+.nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #13293D;
+}
+
+/* Login and Signup link styling */
+.auth-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.login-link,
+.signup-link,
+.logout-link {
+    /* color: #ffffff; */
+    text-decoration: none;
+    padding: 0.4rem 0.9rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.login-link:hover {
+    background-color: #133C55;
+}
+
+.login-link {
+    background-color: #386FA4;
+    color: white;
+    margin-right: 10px;
+}
+
+.logout-link {
+    background-color: red;
+    color: white;
+    margin-right: 10px;
+}
+.logout-link:hover {
+    background-color: darkred;
+}
+
+.signup-link {
+    background-color: #28a745;
+    color: white;
+}
+
+.signup-link:hover {
+    background-color: #19722c;
+}
+
+.auth-buttons{
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.get-started {
+    background: #f542d7;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+}

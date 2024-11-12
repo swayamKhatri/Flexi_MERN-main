@@ -1,0 +1,50 @@
+/* src/pages/StudyRoom.css */
+.study-room {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.rooms-list {
+    margin: 20px 0;
+}
+
+.room-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chat-room {
+    margin-top: 40px;
+    border-top: 2px solid #ccc;
+    padding-top: 20px;
+}
+
+.chat-room .messages {
+    margin-bottom: 10px;
+    max-height: 200px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

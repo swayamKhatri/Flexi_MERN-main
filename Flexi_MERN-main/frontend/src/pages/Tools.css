@@ -1,0 +1,225 @@
+/* Styles for the overall Tools component */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.tab-buttons button {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tab-buttons button i {
+    font-size: 1.2rem;
+}
+
+.tab-buttons button.flashcards-btn {
+    background-color: #ff6f61;
+}
+
+.tab-buttons button.quiz-btn {
+    background-color: #ffa600;
+}
+
+.tab-buttons button.faq-btn {
+    background-color: #28a745;
+}
+
+.tab-buttons button.study-material-btn {
+    background-color: #007bff;
+}
+
+.tab-buttons button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.tab-buttons button.active {
+    background-color: #28a745; /* Green for active tab */
+}
+
+.tab-content {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Flashcards Styles */
+/* .flashcard {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #fff8e1;
+    font-size: 18px;
+} */
+
+.flashcard p {
+    margin-bottom: 20px;
+}
+
+.flashcard button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.flashcard button:first-child {
+    background-color: #007bff;
+    color: white;
+}
+
+.flashcard button:last-child {
+    background-color: #28a745;
+    color: white;
+}
+
+.flashcard button:hover {
+    opacity: 0.9;
+}
+
+/* Quiz Styles */
+.quiz {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #f1f8ff;
+    font-size: 18px;
+}
+
+.quiz p {
+    margin-bottom: 20px;
+}
+
+.quiz button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    color: #333;
+    transition: background-color 0.2s;
+}
+
+.quiz button:hover {
+    background-color: #ccc;
+}
+
+.quiz button[selected="true"] {
+    background-color: #007bff;
+    color: white;
+}
+
+.quiz .next-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* FAQ Styles */
+.faq {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #e8f5e9;
+    font-size: 18px;
+}
+
+.faq p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.faq p:hover {
+    color: #007bff;
+}
+
+.faq .answer {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #555;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Study Material Section */
+.study-material {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #f0f8ff;
+    font-size: 18px;
+}
+
+.study-material h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.study-material ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.study-material ul li {
+    margin-bottom: 10px;
+}
+
+.study-material ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.study-material ul li a:hover {
+    text-decoration: underline;
+}

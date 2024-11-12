@@ -1,0 +1,60 @@
+/* src/components/Home.css */
+.hero-section {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(145deg, #000000, #000000);
+
+    background-image: url('/public/images/bg_hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    color: #1100fffb;
+}
+
+.hero-section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.question-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.question-box textarea {
+    width: 80%;
+    height: 100px;
+    padding: 0.75rem;
+    border: 1px dashed #ddd;
+    border-radius: 8px;
+}
+
+.get-answer {
+    margin-top: 1rem;
+    padding: 0.75rem 2rem;
+    color: #fff;
+    background: #0256ffd3;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.8em !important;
+}
+
+.trusted-info {
+    font-size: 1.5rem !important;
+    color: #888;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .question-box textarea {
+        width: 90%;
+    }
+}

@@ -1,0 +1,68 @@
+.create-room-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-room-form h2 {
+  font-size: 1.8rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-room-form .form-group {
+  margin-bottom: 15px;
+}
+
+.create-room-form label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.create-room-form input {
+  width: 90%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.create-room-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.create-room-form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, box-shadow 0.2s ease;
+}
+
+.create-room-form button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.success-message {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 15px;
+}
